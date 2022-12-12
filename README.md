@@ -37,13 +37,3 @@ y_score = clf.predict_proba(X_test)
 auc_mu.auc_mu(y_test, y_score)
 >>> 0.99326599
 ```
-
-Additional information regarding use of an alternative partition matrix or weight matrix is contained in the auc_mu.auc_mu Docstring.
-
-## Authors
-
-* **Ross Kleiman**
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
